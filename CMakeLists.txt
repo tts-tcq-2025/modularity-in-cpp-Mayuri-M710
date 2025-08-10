@@ -26,7 +26,7 @@ set(HEADERS
 )
 
 # Create library
-add_library(TelCoColorCoderLib ${SOURCES} ${HEADERS})
+add_library(TelCoColorCoderLib ${SOURCES})
 
 # Main executable
 add_executable(TelCoColorCoder main.cpp)
