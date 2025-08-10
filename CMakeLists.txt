@@ -7,22 +7,19 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Include FetchContent module
 include(FetchContent)
 
-# Include directories
-include_directories(include)
-
 # Source files
 set(SOURCES
-    src/ColorPair.cpp
-    src/ReferenceManual.cpp
-    src/ColorMapper.cpp
+    ColorPair.cpp
+    ReferenceManual.cpp
+    ColorMapper.cpp
 )
 
 # Header files
 set(HEADERS
-    include/ColorPair.h
-    include/ColorDefinitions.h
-    include/ReferenceManual.h
-    include/ColorMapper.h
+    ColorPair.h
+    ColorDefinitions.h
+    ReferenceManual.h
+    ColorMapper.h
 )
 
 # Create library
@@ -48,7 +45,7 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 
 # Test executable
-add_executable(ColorCoderTests test/ColorCoderTests.cpp)
+add_executable(ColorCoderTests ColorCoderTests.cpp)
 target_link_libraries(ColorCoderTests TelCoColorCoderLib gtest_main)
 
 # Add test
