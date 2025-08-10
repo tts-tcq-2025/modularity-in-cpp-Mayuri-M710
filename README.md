@@ -29,3 +29,14 @@ The color coding needs to be printed as a reference manual for wiring personnel.
 This manual is a mapping from the color-names to the corresponding numbers.
 Add a function that would format the color coding in a form that someone can print.
 Also resolve any coding guideline violations.
+
+### To do
+1. ✅ Make Cmake project
+2. ✅ Add gtest
+3. ✅ Seperate test
+4. ✅ Line of code must be less than 50 
+5. ✅ Use SRP, DRY and MOCK cout dependency injection when testing I/0 by passing function paramter.
+6. ✅ Use dictionary or vector to compute color pair table first.
+7. ✅ Use proper naming
+8. ✅ Add explaination.txt to explain what was done.
+9. ✅ seperate pure function 
