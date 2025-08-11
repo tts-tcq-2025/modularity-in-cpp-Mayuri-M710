@@ -1,1 +1,34 @@
 testchecker
+
+# Build directories
+build/
+build_*/
+out/
+
+# CMake generated files
+_deps/
+
+# Visual Studio files
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+TelCoColorCoder
+ColorCoderTests
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Testing
+Testing/
+CTestTestfile.cmake
